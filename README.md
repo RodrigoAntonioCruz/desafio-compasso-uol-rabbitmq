@@ -58,13 +58,13 @@ Para rodar estas aplicações, você deve ter instalado em seu computador:
 5. Após a execução do processo anterior, estará disponível para acesso em seu browser os seguintes `Endpoints` para teste:
 <ul> 
   <li>
-   <a href="http://localhost:9090" target="_blank">Consumer(http://localhost:9090)</a>
+   <a href="http://localhost:9090" target="_blank">Consumer (http://localhost:9090)</a>
   <li>
-   <a href="http://localhost:8080" target="_blank">Producer(http://localhost:8080)</a>
+   <a href="http://localhost:8080" target="_blank">Producer (http://localhost:8080)</a>
   <li>
-   <a href="http://localhost:9191" target="_blank">RabbitMQ(http://localhost:9191)</a>
+   <a href="http://localhost:9191" target="_blank">RabbitMQ (http://localhost:9191)</a>
   <li>
-   <a href="http://localhost:8081" target="_blank">Mongo Express(http://localhost:8081)</a>
+   <a href="http://localhost:8081" target="_blank">Mongo Express (http://localhost:8081)</a>
 </ul> 
 
 ### Executando os testes unitários
