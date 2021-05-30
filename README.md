@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-  DESAFIO BACKEND COMPASSO UOL
+  DESAFIO BACKEND COMPASSO UOL RABBITMQ
 </h3>
 
 
