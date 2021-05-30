@@ -54,7 +54,7 @@ Desenvolver um `sistema de mesageria` que contemple a utilização da tecnologia
 
 ### Diagrama da aplicação
 
-Este diagrama contempla o fluxo real que as aplicações se propõem. A aplicação `producer` tem por finalidade a produção de dados, que acontece via endpoint de sua api-rest.Quando os dados são produzidos, eles são armazenados em um banco relacional `H2DB` e enviados para a fila `"queue"` no tópico `product` do `RabbitMQ`. Por sua vez, a aplicação `consumer` fica ouvindo este tópico e, quando chega uma nova mensagem ela é `processada` e removida da fila, salvando em um banco não relacional `MongoDB` e disponibilizando-os por meio de sua api-rest.
+Este diagrama contempla o fluxo real que as aplicações se propõem. A aplicação `producer` tem por finalidade a produção de dados que acontece via endpoint de sua api-rest.Quando os dados são produzidos,são enviados para a fila `"queue"` no tópico `product` do `RabbitMQ` e armazenados em um banco relacional `H2DB`. Por sua vez, a aplicação `consumer` fica `ouvindo os eventos` deste `tópico` e, quando chega uma `nova mensagem` ela é `processada` e removida da fila, salvando em um banco não relacional `MongoDB` e disponibilizando-os por meio de sua api-rest.
 
 <hr>
 <p align="center">
