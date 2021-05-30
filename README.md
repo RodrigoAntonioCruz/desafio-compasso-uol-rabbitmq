@@ -29,14 +29,23 @@ Desenvolver um `sistema de mesageria` que contemple a utilização da tecnologia
 
 1. Clone ou baixe o projeto do repositório para o seu `Computador`.
 
-2. Navegue até a raíz do seu diretório onde salvou ou clonou o projeto, abra o `terminal e execute em sequencia os comandos:`
+2. Navegue até a raíz do seu diretório onde salvou ou clonou o projeto na pasta `consumer`, abra o `terminal e execute o comando:`
 <ul> 
    <li> sudo gradle build
+</ul>
+
+3. Navegue até a raíz do seu diretório onde salvou ou clonou o projeto na pasta `producer`, abra o `terminal e execute o comando:`
+<ul> 
+   <li> sudo gradle build
+</ul>
+
+4. Navegue até a raíz do seu diretório onde salvou ou clonou o projeto, abra o `terminal e execute em sequencia os comandos:`
+<ul> 
    <li> sudo docker-compose build
    <li> sudo docker-compose up
 </ul>
 
-3. Após a execução do processo anterior, estará disponível para acesso em seu browser os seguintes `Endpoints` para teste:
+5. Após a execução do processo anterior, estará disponível para acesso em seu browser os seguintes `Endpoints` para teste:
 <ul> 
   <li>
    <a href="http://localhost:9090" target="_blank">Consumer(http://localhost:9090)</a>
