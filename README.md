@@ -25,6 +25,16 @@ Desenvolver um `sistema de mesageria` que contemple a utilização da tecnologia
   <li> Jpa
 </ul>
 
+### Requisitos
+
+Para rodar estas aplicações, você deve ter instalado em seu computador:
+
+<ul> 
+   <li><a href="https://www.azul.com/downloads/?package=jdk" target="_blank">Java 11 (LTS)</a>
+   <li><a href="https://gradle.org/next-steps/?version=7.0.2&format=bin" target="_blank">Gradle 7.0.2</a>  
+  <li><a href="https://docs.docker.com/get-started/" target="_blank">Docker</a>
+</ul> 
+
 ### Executando o projeto
 
 1. Clone ou baixe o projeto do repositório para o seu `Computador`.
