@@ -9,7 +9,7 @@
 
 ### Contexto do Desafio
 
-Desenvolver um `sistema`  que contemple a utilização da tecnologia de mesageria `RabbitMQ`
+Desenvolver um `sistema de mesageria` que contemple a utilização da tecnologia `RabbitMQ`
 
 <h4>Tecnologias</h4>
 <ul>
@@ -29,31 +29,31 @@ Desenvolver um `sistema`  que contemple a utilização da tecnologia de mesageri
 
 1. Clone ou baixe o projeto do repositório para o seu `Computador`.
 
-2. Navegue até a raíz do seu diretório onde salvou ou clonou o projeto, abra o `terminal e execute ` os comandos: 
-  `sudo docker-compose build`, em seguida `sudo docker-compose up -d`.
+2. Navegue até a raíz do seu diretório onde salvou ou clonou o projeto, abra o `terminal e execute em sequencia os comandos:`
+<ul> 
+   <li> sudo gradle build
+   <li> sudo docker-compose build
+   <li> sudo docker-compose up
+</ul>
 
-3. Estará disponível para acesso em seu browser os seguintes `Endpoints` para teste:
-
+3. Após a execução do processo anterior, estará disponível para acesso em seu browser os seguintes `Endpoints` para teste:
+<ul> 
   <li>
-   <a href="http://localhost:9090" target="_blank">Consumer</a>
-
+   <a href="http://localhost:9090" target="_blank">Consumer(http://localhost:9090)</a>
   <li>
-   <a href="http://localhost:8080" target="_blank">Producer</a>
-
+   <a href="http://localhost:8080" target="_blank">Producer(http://localhost:8080)</a>
   <li>
-   <a href="http://localhost:9191" target="_blank">RabbitMQ</a>
-
+   <a href="http://localhost:9191" target="_blank">RabbitMQ(http://localhost:9191)</a>
   <li>
-   <a href="http://localhost:8081" target="_blank">Mongo Express</a>
+   <a href="http://localhost:8081" target="_blank">Mongo Express(http://localhost:8081)</a>
+</ul> 
+### Executando os testes unitários
 
-### Executando os Testes
-
-1. Navegue até a raíz do seu diretório onde salvou ou clonou o projeto, abra o `terminal e execute ` o comando `sudo gradle clean test`. Este comando executará todos os casos de teste, resultando em:
-
+1. Navegue até a raíz do seu diretório onde salvou ou clonou o projeto, abra o `terminal e execute ` o comando `sudo gradle clean test`. Este comando executará todos os casos de teste.
 
 ### Diagrama da aplicação
 
-Este diagrama contempla o fluxo real que as aplicações se propõem. A aplicação producer tem por finalidade a produção de dados, que acontece via endpoint de sua api-rest.Quando os dados são produzidos, eles são armazenados em um banco relacional H2DB e enviados para a fila "queue" no tópico product do RabbitMQ. Por sua vez, a aplicação consumer fica ouvindo este tópico e, quando chega uma nova mensagem ela é processada e removida da fila, salvando em um banco não relacional MongoDB e disponibilizando-os por meio de sua api-rest.
+Este diagrama contempla o fluxo real que as aplicações se propõem. A aplicação `producer` tem por finalidade a produção de dados, que acontece via endpoint de sua api-rest.Quando os dados são produzidos, eles são armazenados em um banco relacional `H2DB` e enviados para a fila `"queue"` no tópico `product` do `RabbitMQ`. Por sua vez, a aplicação `consumer` fica ouvindo este tópico e, quando chega uma nova mensagem ela é `processada` e removida da fila, salvando em um banco não relacional `MongoDB` e disponibilizando-os por meio de sua api-rest.
 
 <hr>
 <p align="center">
