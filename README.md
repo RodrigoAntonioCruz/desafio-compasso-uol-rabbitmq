@@ -77,6 +77,6 @@ Este diagrama contempla o fluxo real que as aplicações se propõem. A aplicaç
 
 <hr>
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/RodrigoAntonioCruz/assets/main/Blank%20Diagram.png" />
+  <img align="center" src="https://raw.githubusercontent.com/RodrigoAntonioCruz/assets/main/diagrama-1.0.png" />
 </p>
 <hr>
