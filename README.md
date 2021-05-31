@@ -32,7 +32,7 @@ Para rodar estas aplicações, você deve ter instalado em seu computador:
 <ul> 
    <li><a href="https://www.azul.com/downloads/?package=jdk" target="_blank">Java 11 (LTS)</a>
    <li><a href="https://gradle.org/next-steps/?version=7.0.2&format=bin" target="_blank">Gradle 7.0.2</a>  
-  <li><a href="https://docs.docker.com/get-started/" target="_blank">Docker</a>
+   <li><a href="https://docs.docker.com/get-started/" target="_blank">Docker</a>
 </ul> 
 
 ### Executando o projeto
@@ -55,7 +55,7 @@ Para rodar estas aplicações, você deve ter instalado em seu computador:
    <li> sudo docker-compose up
 </ul>
 
-5. Após a execução do processo anterior, estará disponível para acesso em seu browser os seguintes `Endpoints` para teste:
+5. Após a execução dos processos anteriores, estarão disponíveis para acesso em seu browser os seguintes `Endpoints` para teste:
 <ul> 
   <li>
    <a href="http://localhost:9090" target="_blank">Consumer (http://localhost:9090)</a>
