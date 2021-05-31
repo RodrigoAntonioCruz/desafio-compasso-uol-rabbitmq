@@ -9,7 +9,7 @@
 
 ### Contexto do Desafio
 
-Desenvolver um `sistema de mesageria` que contemple a utilização da tecnologia `RabbitMQ`
+Desenvolver um `sistema de mensageria` que contemple a utilização da tecnologia `RabbitMQ`
 
 <h4>Tecnologias</h4>
 <ul>
