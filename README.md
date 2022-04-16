@@ -1,6 +1,3 @@
-
-  
-
 <h3 align="center">
   <img align="center" alt="Logo UOL"  height="100" src="https://webjump.com.br/wp-content/uploads/2021/08/compassuol-logo-min.png" /><br>
   DESAFIO BACKEND COMPASSO UOL RABBITMQ
