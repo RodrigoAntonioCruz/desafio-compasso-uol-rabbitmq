@@ -1,5 +1,5 @@
 <p align="center">
-  <img align="center" alt="Logo UOL" src="https://compasso.com.br/wp-content/uploads/2020/07/LogoCompasso-Negativo.png" />
+  <img align="center" alt="Logo UOL" src="https://compass.uol/logo.svg" />
 </p>
 
 <h3 align="center">
