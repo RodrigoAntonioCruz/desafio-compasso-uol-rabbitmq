@@ -1,5 +1,5 @@
 <p align="center">
-  <img align="center" alt="Logo UOL" src="https://compass.uol/logo.svg" />
+  <img align="center" alt="Logo UOL" src="https://webjump.com.br/wp-content/uploads/2021/08/compassuol-logo-min.png" />
 </p>
 
 <h3 align="center">
